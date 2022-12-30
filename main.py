@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 import matplotlib.image as mpimg
 
-height  , width =  16 , 16
+height  , width =  int(sys.argv[2].split("x")[0] ), int(sys.argv[2].split("x")[1])
 
 
 img  = Image.open(sys.argv[1])
